@@ -1,0 +1,26 @@
+Input: 1+2*3
+Output:
+The postfix expression is 123*+
+The result of the expression is 7
+
+Input: (1+2)*3
+Output:
+The postfix expression is 12+3*
+The result of the expression is 9
+
+Input: 1+2*3+4
+Output:
+The postfix expression is 123*+4+
+The result of the expression is 11
+
+Input: (1+2)*(3+4)
+Output:
+The postfix expression is 12+34+*
+The result of the expression is 21
+
+Input: 9+5*8-3*(7-2)%2-5
+Output: 
+The postfix expression is 958*+372-*2%-5-
+The result of the expression is 44
+
+//Try out your own mathematical expressions and verify the result :)

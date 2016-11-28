@@ -1,0 +1,118 @@
+hellWelcome to the Stack Program! ENTER 
+1 to push(string)
+2 to pop()
+3 to peek(),
+4 to print()
+5 to check for empty Stack
+6 to Exit
+> 4
+
+Stack is empty
+
+> 1
+
+Enter item to be pushed: hello
+
+Successfully pushed hello
+
+> 1
+
+Enter item to be pushed: world
+
+Successfully pushed world
+
+> 1
+
+Enter item to be pushed: life
+
+Successfully pushed life
+
+> 1
+
+Enter item to be pushed: is
+
+Successfully pushed is
+
+> 1
+
+Enter item to be pushed: busy
+
+Successfully pushed busy
+
+> 4
+
+Item(s) stored in the stack are: hello world life is busy
+
+> 3
+
+busy
+
+> 2
+
+busy
+
+> 4
+
+Item(s) stored in the stack are: hello world life is
+
+> 3
+
+is
+
+> 1
+
+Enter item to be pushed: goood
+
+Successfully pushed goood
+
+> 4
+
+Item(s) stored in the stack are: hello world life is goood
+
+> 5
+
+Stack is not empty
+
+> 2
+
+goood
+
+> 2
+
+is
+
+> 2
+
+life
+
+> 3
+
+world
+
+> 4
+
+Item(s) stored in the stack are: hello world
+
+> 2
+
+world
+
+> 2
+
+hello
+
+> 3
+
+Stack is empty
+
+> 4
+
+Stack is empty
+
+> 5
+
+Stack is empty
+
+> 6
+
+Goodbye!
