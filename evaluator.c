@@ -52,6 +52,8 @@ char* convertToPostFix(char* str) {
 	Stack* operatorStack = stack_init();
 	char* output = "";
 
+	printf("Entered function");
+
 	char current = str[0];
 	char* c;
 	sprintf(c, "%c", current); 
@@ -150,6 +152,7 @@ int main(int argc, char **argv) {
 
 		char* postfix = convertToPostFix(argv[1]);
 		int answer;
+		printf("%s", postfix);
 		//TODO CHANGE ABOVE!!
 		
 		// printf(STR_POSTFIX_EXPRESSION,postfix);
